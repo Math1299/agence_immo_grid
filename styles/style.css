@@ -265,6 +265,13 @@ img.active {
   height: 50px;
   width: 50px;
 }
+/*---------------------------    FOOTER    -----------------------------------------*/
+footer {
+  border-top: 1px dashed #000;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
 
 /*---------------------------    RESPONSIVE    -----------------------------------------*/
 
@@ -299,5 +306,49 @@ img.active {
     font-size: 18px;
     width: 250px;
     padding: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .grille-accueil {
+    display: flex;
+    flex-direction: column;
+  }
+  .presentation {
+    padding: 30px;
+    border-bottom: 1px solid #000;
+  }
+  .presentation h1 {
+    font-size: 60px;
+    margin-top: 5px;
+  }
+  .slider {
+    height: 500px;
+  }
+  .titre-choix {
+    font-size: 28px;
+    margin: 30px 10px 20px;
+  }
+  .go-galerie {
+    font-size: 18px;
+    width: 230px;
+    padding: 15px;
+    margin: 20px auto 30px;
+  }
+  .contact {
+    display: block;
+  }
+  .contact h3 {
+    padding-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .go-contact {
+    width: 70px;
+    height: 70px;
+    margin: 30px auto;
+  }
+  .go-contact img {
+    width: 35px;
+    height: 35px;
   }
 }
